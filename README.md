@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Gomoku React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple implementation of the Gomoku (also known as Five in a Row) game built with React and styled-components.
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Gomoku is a two-player strategy board game where the objective is to be the first player to get five of their colored stones in a row horizontally, vertically, or diagonally on a 19x19 grid. Players take turns placing their stones on the intersections of the grid until one player achieves five stones in a row or there are no more empty intersections left, resulting in a draw.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Play against a friend locally.
+- Dynamic board size (19x19 grid).
+- Visual feedback for placing stones and winning moves.
+- Fair game detection when the board is full.
+- Responsive design for various screen sizes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To run the Gomoku React app locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies using npm or yarn:
+   ```
+   npm install
+   ```
+   or
+   ```
+   yarn install
+   ```
+4. Start the development server:
+   ```
+   npm start
+   ```
+   or
+   ```
+   yarn start
+   ```
+5. Open your web browser and navigate to `http://localhost:3000` to view the app.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Click on an empty intersection of the board to place a stone.
+- Alternate turns with your opponent.
+- Achieve five stones in a row horizontally, vertically, or diagonally to win the game.
+- If the board fills up without a winner, the game ends in a draw.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Styling with styled-components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project uses styled-components to style React components. styled-components allows you to write CSS in your JavaScript files, making it easy to create and maintain styles for your components.
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Credits
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Built with [React](https://reactjs.org/)
+- Styled with [styled-components](https://styled-components.com/)
+- Icons provided by [Font Awesome](https://fontawesome.com/)
